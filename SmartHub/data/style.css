@@ -1,0 +1,6 @@
+/* data/style.css */
+body { font-family: sans-serif; max-width: 500px; margin: 2rem auto; padding: 0 1rem; }
+.device-card { border: 1px solid #ccc; border-radius: 8px; padding: 1rem; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+.device-card.offline { opacity: 0.5; }
+.pending-card { border: 1px dashed #888; border-radius: 8px; padding: 0.5rem; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+button { padding: 0.4rem 0.8rem; cursor: pointer; }
